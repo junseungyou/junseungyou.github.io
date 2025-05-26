@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+	<div class="site-intro" aria-label="test">
+	  <div class="wrapper">
+		<p>
+		<img src="assets/jsyou.jpg">
+		Ph.D. Student<br>
+		<a href="https://ece.snu.ac.kr">Department of Electrical and Computer Enginnering</a><br>
+		<a href="https://snu.ac.kr">Seoul National University</a><br>
+		<a href="http://sor.snu.ac.kr">Security Optimization Lab (SOR)</a><br>
+		<br>
+		Email: jsyou@sor.snu.ac.kr<br>
+		CV
+		</p>
+	  </div>
+	</div>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
