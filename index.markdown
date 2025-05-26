@@ -44,8 +44,5 @@ Jiwon Seo, Inyoung Bang, **<u>Junseung You</u>**, Yeongil Cho, and Yunheung Paek
 IEEE Access 2020
 
 
-## Education
-* 
-
 ## Services
 * EuroSys 2025 Shadow Program Committee
