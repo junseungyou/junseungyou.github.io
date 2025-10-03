@@ -21,29 +21,35 @@ For collaboration inquiries or more information about my research, please feel f
 * **BASTAG: Byte-level Access Control on Shared Memory using ARM Memory Tagging Extension _(to appear)_**<br>
 **<u>Junseung You</u>**, Jiwon Seo, Kyeongryong Lee, Yeongpil Cho, and Yunheung Paek<br>
 ACM SIGSAC Conference on Computer and Communications Security (**CCS**) 2025
-[<a href="https://junseungyou.github.io/assets/bastag.pdf" style="color:black; text-decoration:none;">pdf</a>]
 \[[paper](https://junseungyou.github.io/assests/bastag.pdf)\]
+\[[slides]()\]
 
 * **KVSEV: A Secure In-Memmory Key-Value Store with Secure Encrypted Virtualization**<br>
 **<u>Junseung You</u>**, Kyeongryong Lee, Hyungon Moon, Yeongpil Cho, and Yunheung Paek<br>
 ACM Symposium on Cloud Computing (**SoCC**) 2023
+\[[paper](https://junseungyou.github.io/assets/kvsev.pdf)\]
+\[[slides](https://junseungyou.github.io/assets/kvsev-slides.pdf)\]
 
 * **ZOMETAG: Zone-based Memory Tagging for Fast, Deterministic Detection of Spatial Memory Violations on ARM**<br>
 Jiwon Seo⭑, **<u>Junseung You</u>**⭑, Donghyun Kwon, Yeongpil Cho, and Yunheung Paek<br>
-IEEE Transactions on Information Forensics and Security (**TIFS**) 2023<br>
+IEEE Transactions on Information Forensics and Security (**TIFS**) 2023
+\[[paper](https://junseungyou.github.io/assets/zometag.pdf)\]<br>
 ⭑ co-first authors
 
 * **SFITAG: Efficient Software Fault Isolation with Memory Tagging for ARM Kernel Extensions**<br>
 Jiwon Seo, **<u>Junseung You</u>**, Yungi Cho, Yeongil Cho, Donghyun Kwon, and Yunheung Paek<br>
 ACM Asia Conference on Computer and Communications Security (**ASIACCS**) 2023
+\[[paper](https://junseungyou.github.io/assets/sfitag.pdf)\]
 
 * **Enhancing a Lock-and-Key Scheme with MTE to Mitigate Use-After-Frees**<br>
 Inyoung Bang, Martin Kayondo, **<u>Junseung You</u>**, Donghyun Kwon, Yeongpil Cho, and Yunheung Paek<br>
 IEEE Access 2023
+\[[paper](https://junseungyou.github.io/assets/vtalloc.pdf)\]
 
 * **SBGen: A Framework to Efficiently Supply Runtime Information for a Learning-based HIDS for Multiple Virtual Machines**<br>
 Jiwon Seo, Inyoung Bang, **<u>Junseung You</u>**, Yeongil Cho, and Yunheung Paek<br>
 IEEE Access 2020
+\[[paper](https://junseungyou.github.io/assets/sbgen.pdf)\]
 
 
 ## Services
