@@ -44,7 +44,7 @@ ACM Asia Conference on Computer and Communications Security (**ASIACCS**) 2023
 * **Enhancing a Lock-and-Key Scheme with MTE to Mitigate Use-After-Frees**<br>
 Inyoung Bang, Martin Kayondo, **<u>Junseung You</u>**, Donghyun Kwon, Yeongpil Cho, and Yunheung Paek<br>
 IEEE Access 2023
-\[[paper](https://junseungyou.github.io/assets/vtalloc.pdf)\]
+\[[paper](https://junseungyou.github.io/assets/vatalloc.pdf)\]
 
 * **SBGen: A Framework to Efficiently Supply Runtime Information for a Learning-based HIDS for Multiple Virtual Machines**<br>
 Jiwon Seo, Inyoung Bang, **<u>Junseung You</u>**, Yeongil Cho, and Yunheung Paek<br>
