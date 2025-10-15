@@ -18,7 +18,7 @@ For collaboration inquiries or more information about my research, please feel f
 * (2025/05) New paper on byte-level access control on shared memory has been accepted to **<u>ACM CCS</u>**.
 
 ## Publications
-* **BASTAG: Byte-level Access Control on Shared Memory using ARM Memory Tagging Extension _(to appear)_**<br>
+* **BASTAG: Byte-level Access Control on Shared Memory using ARM Memory Tagging Extension**<br>
 **<u>Junseung You</u>**, Jiwon Seo, Kyeongryong Lee, Yeongpil Cho, and Yunheung Paek<br>
 ACM SIGSAC Conference on Computer and Communications Security (**CCS**) 2025
 \[[paper](https://junseungyou.github.io/assets/bastag.pdf)\]
