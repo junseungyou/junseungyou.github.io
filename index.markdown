@@ -15,13 +15,13 @@ For collaboration inquiries or more information about my research, please feel f
 
 
 ## News
-* (2025/11) New paper on securing connected vehicles has been accepted to **<u>NDSS<\u>**.
+* (2025/11) New paper on securing connected vehicles has been accepted to **NDSS**.
 * (2025/05) New paper on byte-level access control on shared memory has been accepted to **<u>ACM CCS</u>**.
 
 ## Publications
 * **SECV: Securing Connected Vehicles with Hardware Trust Anchors**<br>
-Martin Kayondo⭑, **<u>Junseung You</u>**⭑, Eunmin Kim, Jiwon Seo, and Yunheung Paek<br>
-Network and Distributed System Security (NDSS) Symposium 2026
+Martin Kayondo⭑, **Junseung You**⭑, Eunmin Kim, Jiwon Seo, and Yunheung Paek<br>
+Network and Distributed System Security (NDSS) Symposium 2026<br>
 ⭑ co-first authors
 
 * **BASTAG: Byte-level Access Control on Shared Memory using ARM Memory Tagging Extension**<br>
