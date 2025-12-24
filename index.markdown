@@ -6,12 +6,7 @@ layout: home
 ---
 **About Me.**
 I’m a Ph.D. student at the [Security Optimization Lab (SOR Lab)](http://sor.snu.ac.kr) in the Department of Electrical and Computer Engineering at Seoul National University, under the guidance of Professor [Yunheung Paek](http://sor.snu.ac.kr/document/ypaek).
-My research focuses on software and system security, with an emphasis on hardware-assisted security solutions and confidential computing.
-Specifically, I address critical security challenges such as memory safety, isolation, and access control by leveraging advanced hardware features like Arm’s Memory Tagging Extension.
-I also explore the utilization of trusted execution environments across diverse architectures to enhance security.
-My work has been accepted to notable computer security journals and conferences, such as ACM CCS and IEEE TIFS.
-
-For collaboration inquiries or more information about my research, please feel free to reach out to me at jsyou@sor.snu.ac.kr. 
+My research agenda develops **hardware-assisted mechanisms that efficiently address fundamental systems security challenges** such as memory safety and isolation, leveraging architectural primitives including Arm Memory Tagging Extension (MTE) and trusted execution environments (TEEs). My work is grounded in low-level systems development across the compiler/toolchain, operating system kernel, and hypervisor. Please checkout my [Curriculum Vitae (CV)](https://junseungyou.github.io/assets/jsyou.pdf) for more information.
 
 
 ## News
