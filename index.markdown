@@ -54,4 +54,6 @@ IEEE Access 2020
 
 
 ## Services
+* IEEE S&P 2026 Artifact Evaluation Committee
+* IEEE Transactions on Dependable and Secure Computing 2025 Reviewer
 * EuroSys 2025 Shadow Program Committee
