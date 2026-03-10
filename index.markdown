@@ -5,7 +5,7 @@
 layout: home
 ---
 **About Me.**
-I’m a Ph.D. student at the [Security Optimization Lab (SOR Lab)](http://sor.snu.ac.kr) in the Department of Electrical and Computer Engineering at Seoul National University, under the guidance of Professor [Yunheung Paek](http://sor.snu.ac.kr/document/ypaek).
+I am a Postdoctoral Researcher at the Seoul National University (SNU) Institute of Computer Technology, currently serving my mandatory military service as Expert Research Personnel. I earned my Ph.D. from [Security Optimization Lab (SOR Lab)](http://sor.snu.ac.kr) in the Department of Electrical and Computer Engineering at SNU, under the supervision of Professor [Yunheung Paek](http://sor.snu.ac.kr/document/ypaek).
 My research agenda develops **hardware-assisted mechanisms that efficiently address fundamental systems security challenges** such as memory safety and isolation, leveraging architectural primitives including Arm Memory Tagging Extension (MTE) and trusted execution environments (TEEs). My work is grounded in low-level systems development across the compiler/toolchain, operating system kernel, and hypervisor. Please checkout my [Curriculum Vitae (CV)](https://junseungyou.github.io/assets/jsyou.pdf) for more information.
 
 
