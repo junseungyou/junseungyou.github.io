@@ -16,7 +16,8 @@ My research agenda develops **hardware-assisted mechanisms that efficiently addr
 ## Publications
 * **SECV: Securing Connected Vehicles with Hardware Trust Anchors**<br>
 Martin Kayondo⭑, **<u>Junseung You</u>**⭑, Eunmin Kim, Jiwon Seo, and Yunheung Paek<br>
-Network and Distributed System Security (NDSS) Symposium 2026<br>
+Network and Distributed System Security (NDSS) Symposium 2026
+\[[paper](https://junseungyou.github.io/assets/secv.pdf)\]<br>
 ⭑ co-first authors
 
 * **BASTAG: Byte-level Access Control on Shared Memory using ARM Memory Tagging Extension**<br>
