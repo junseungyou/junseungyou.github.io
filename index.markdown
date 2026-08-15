@@ -398,3 +398,31 @@ layout: default
         </div>
     </div>
 </div>
+
+
+<h2 id="honors">Honors</h2>
+
+<div class="record-list honors-list">
+    <div class="record-entry">
+        <div class="record-heading">
+            <div class="record-title">ACM CCS 2025 Student Travel Grant</div>
+            <div class="record-date">2025</div>
+        </div>
+    </div>
+
+    <div class="record-entry">
+        <div class="record-heading">
+            <div class="record-title">Best Paper Award, Korea Information Processing Society (한국정보처리학회)</div>
+            <div class="record-date">2020</div>
+        </div>
+        <div class="record-meta">A Study on Vulnerabilities and Defense Systems of ARM TrustZone-assisted TEEs</div>
+    </div>
+
+    <div class="record-entry">
+        <div class="record-heading">
+            <div class="record-title">Best Paper Award, Korea Institute of Information Security and Cryptology (한국정보보호학회)</div>
+            <div class="record-date">2020</div>
+        </div>
+        <div class="record-meta">A Study on Isolation of Kernel Subsystems and Kernel Modules</div>
+    </div>
+</div>
