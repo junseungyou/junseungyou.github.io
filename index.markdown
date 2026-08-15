@@ -59,7 +59,7 @@ layout: default
     <p><strong>May 2025</strong> - New paper on byte-level access control has been accepted to <em>CCS 2025</em>.</p>
 </div>
 
-## Selected Publications
+## Publications
 
 <article class="pub-entry">
     <div class="pub-side">
@@ -87,7 +87,6 @@ layout: default
         </div>
     </div>
 </article>
-
 
 <article class="pub-entry">
     <div class="pub-side">
@@ -171,3 +170,103 @@ layout: default
         </div>
     </div>
 </article>
+
+<article class="pub-entry">
+    <div class="pub-side">
+        <div class="pub-venue">ASIACCS</div>
+
+        <div class="pub-links" aria-label="Publication resources">
+            <a href="/assets/sfitag.pdf" title="Paper" aria-label="Paper">
+                <i class="fa-regular fa-file-pdf" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="pub-body">
+        <div class="pub-title">
+            SFITAG: Efficient Software Fault Isolation with Memory Tagging for ARM Kernel Extensions
+        </div>
+        <div class="pub-authors">
+            Jiwon Seo, <strong>Junseung You</strong>, Yungi Cho, Yeongpil Cho, Donghyun Kwon, and Yunheung Paek
+        </div>
+        <div class="pub-conference">
+            ACM ASIA Conference on Computer and Communications Security, 2023
+        </div>
+    </div>
+</article>
+
+<article class="pub-entry">
+    <div class="pub-side">
+        <div class="pub-venue">Access</div>
+
+        <div class="pub-links" aria-label="Publication resources">
+            <a href="/assets/vatalloc.pdf" title="Paper" aria-label="Paper">
+                <i class="fa-regular fa-file-pdf" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="pub-body">
+        <div class="pub-title">
+            Enhancing a Lock-and-Key Scheme with MTE to Mitigate Use-After-Frees
+        </div>
+        <div class="pub-authors">
+            Inyoung Bang, Martin Kayondo, <strong>Junseung You</strong>, Donghyun Kwon, Yeongpil Cho, and Yunheung Paek
+        </div>
+        <div class="pub-conference">
+            IEEE Access, 2023
+        </div>
+    </div>
+</article>
+
+<article class="pub-entry">
+    <div class="pub-side">
+        <div class="pub-venue">Access</div>
+
+        <div class="pub-links" aria-label="Publication resources">
+            <a href="/assets/sbgen.pdf" title="Paper" aria-label="Paper">
+                <i class="fa-regular fa-file-pdf" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="pub-body">
+        <div class="pub-title">
+            SBGen: A Framework to Efficiently Supply Runtime Information for a Learning-based HIDS for Multiple Virtual Machines
+        </div>
+        <div class="pub-authors">
+            Jiwon Seo, Inyoung Bang, <strong>Junseung You</strong>, Yeongpil Cho, and Yunheung Paek
+        </div>
+        <div class="pub-conference">
+            IEEE Access, 2020
+        </div>
+    </div>
+</article>
+
+
+<div class="education-section">
+<input class="education-toggle" type="checkbox" id="education-full" aria-label="Show full education history">
+<h2 class="education-heading">Education <label for="education-full">(full)</label></h2>
+
+<div class="education-list">
+    <div class="education-entry">
+        <div><strong>Seoul National University</strong>, Ph.D. in Electrical and Computer Engineering</div>
+        <div class="education-date">Sep 2019 – Feb 2026</div>
+    </div>
+
+    <div class="education-entry">
+        <div><strong>Seoul National University</strong>, B.E. in Electrical and Computer Engineering</div>
+        <div class="education-date">Mar 2014 – Aug 2019</div>
+    </div>
+
+    <div class="education-entry education-optional">
+        <div><strong>Korean Minjok Leadership Academy</strong></div>
+        <div class="education-date">Mar 2011 – Feb 2014</div>
+    </div>
+</div>
+</div>
+
+## Experience
+
+
+## Talks &amp; Seminars
