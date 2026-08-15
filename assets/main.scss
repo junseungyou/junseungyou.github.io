@@ -94,8 +94,9 @@ img {
 
 .page-content h2 {
   margin: 3.5rem 0 1.25rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--rule);
+  padding: 0 0 0.65rem;
+  border-top: 0;
+  border-bottom: 1px solid var(--rule);
   font-size: 1.2rem;
   line-height: 1.3;
 }
@@ -107,7 +108,7 @@ img {
 }
 
 .page-content p {
-  max-width: 46rem;
+  max-width: 50rem;
   margin: 0 0 1rem;
 }
 
@@ -120,39 +121,56 @@ img {
 }
 
 .profile {
+  margin-bottom: 3.5rem;
+}
+
+.profile-name {
+  margin: 0 0 1.5rem !important;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.profile-main {
   display: grid;
-  grid-template-columns: 150px minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr), 160px;
   align-items: start;
-  gap: 2rem;
-  margin-bottom: 3rem;
+  gap: 3rem;
+}
+
+.profile-info {
+  min-width: 0;
 }
 
 .profile-photo {
   display: block;
-  width: 150px;
-}
-
-.profile h1 {
-  margin-top: -0.35rem;
-}
-
-.role,
-.contact-links,
-.publication-meta {
-  color: var(--muted);
+  width: 160px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
 }
 
 .role {
-  margin-bottom: 1rem;
+  margin: 0 0 1.25rem !important;
+  color: var(--text);
+  line-height: 1.75;
 }
 
-.contact-links {
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.1rem;
   font-size: 0.92rem;
 }
 
-.publications-intro {
-  color: var(--muted);
-  font-size: 0.95rem;
+.profile-links a {
+  text-decoration: none;
+}
+
+.profile-links a:hover {
+  text-decoration: underline;
+}
+
+.pub-side {
+  text-align: center;
 }
 
 .pub-year {
@@ -172,7 +190,6 @@ img {
 }
 
 .pub-venue {
-  padding-top: 0.15rem;
   color: var(--link);
   font-size: 0.82rem;
   font-weight: 700;
@@ -188,7 +205,6 @@ img {
 
 .pub-authors,
 .pub-conference,
-.pub-links,
 .pub-note {
   color: var(--muted);
   font-size: 0.9rem;
@@ -200,11 +216,20 @@ img {
 }
 
 .pub-links {
-  margin-top: 0.25rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.55rem;
+  margin-top: 0.4rem;
 }
 
 .pub-links a {
-  margin-right: 0.6rem;
+  color: var(--muted);
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  color: var(--link);
 }
 
 .pub-note {
@@ -239,6 +264,18 @@ img {
     white-space: nowrap;
   }
 
+  .pub-side {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-align: left;
+  }
+
+  .pub-links {
+    justify-content: flex-start;
+    margin-top: 0;
+  }
+
   .pub-entry {
     grid-template-columns: 1fr;
     gap: 0.3rem;
@@ -248,8 +285,8 @@ img {
     padding-top: 2.5rem;
   }
 
-  .profile {
-    grid-template-columns: 100px minmax(0, 1fr);
+  .profile-main {
+    grid-template-columns: minmax(0, 1fr) 100px;
     gap: 1.25rem;
   }
 
