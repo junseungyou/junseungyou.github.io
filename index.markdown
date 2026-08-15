@@ -3,7 +3,7 @@ layout: default
 ---
 <section class="profile">
     <h1 class="profile-name">Junseung You (유준승)</h1>
-
+    
     <div class="profile-main">
         <div class="profile-info">
             <p class="role">
@@ -11,7 +11,7 @@ layout: default
                 Institute of Computer Technology<br>
                 Seoul National University
             </p>
-
+    
             <nav class="profile-links" aria-label="Professional links">
                 <a href="/assets/jsyou.pdf">CV</a>
                 <a href="mailto:jsyou@sor.snu.ac.kr">Email</a>
@@ -19,7 +19,7 @@ layout: default
                 <a href="https://scholar.google.com/citations?user=hA5MNwcAAAAJ&hl=en">Google Scholar</a>
             </nav>
         </div>
-
+    
         <img
             class="profile-photo"
             src="{{ '/assets/jsyou2.jpeg' | relative_url }}"
@@ -31,14 +31,9 @@ layout: default
 
 **Nov 2025** - New paper on securing connected vehicles has been accepted to *NDSS 2026*.
 
-**May 2025** - New paper on byte-level access control on shared memory has been accepted to *CCS 2025*.
+**May 2025** - New paper on byte-level access control has been accepted to *CCS 2025*.
 
 ## Selected Publications
-
-<p class="publications-intro">
-    List of selected publications. <p><a href="/publications/">View all publications →</a></p>
-    Full citation record is also available on <a href="https://scholar.google.com/citations?user=hA5MNwcAAAAJ&hl=en">Google Scholar</a>.
-</p>
 
 <article class="pub-entry">
     <div class="pub-side">
