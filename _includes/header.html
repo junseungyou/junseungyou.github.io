@@ -1,14 +1,21 @@
 <header class="site-header">
 	<div class="wrapper nav">
-		<a class="site-title" href="{{ '/' | relative_url }}">
-			Junseung You (유준승)<span>· Postdoctoral Researcher</span>
-		</a>
-
 		<nav aria-label="Primary navigation">
-			<a href="{{ '/' | relative_url }}">Home</a>
-			<a href="{{ '/publications/' | relative_url }}">Publications</a>
-			<a href="{{ '/research/' | relative_url }}">Research</a>
-			<a href="{{ '/assets/jsyou.pdf' | relative_url }}">CV</a>
+			<a href="{{ '/' | relative_url }}" {% if page.url == "/" %}aria-current="page"{% endif %}>
+				Home
+			</a>
+
+			<a href="{{ '/publications/' | relative_url }}" {% if page.url == "/publiations/" %}aria-current="page"{% endif %}>
+				Publications
+			</a>
+
+			<a href="{{ '/research/' | relative_url }}" {% if page.url == "/research/" %}aria-current="page"{% endif %}>
+				Research
+			</a>
+
+			<a href="{{ '/assets/jsyou.pdf' | relative_url }}">
+				CV
+			</a>
 		</nav>
 	</div>
 </header>

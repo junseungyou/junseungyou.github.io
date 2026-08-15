@@ -51,42 +51,32 @@ img {
 }
 
 .nav {
-  min-height: 4.25rem;
+  min-height: 4rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-}
-
-.site-title {
-  color: var(--text);
-  font-size: 1.05rem;
-  font-weight: 650;
-  letter-spacing: -0.01em;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.site-title span {
-  color: var(--muted);
-  font-size: 0.86rem;
-  font-weight: 400;
+  justify-content: flex-end;
 }
 
 .nav nav {
   display: flex;
   align-items: center;
-  gap: 1.15rem;
-  font-size: 0.9rem;
+  gap: 1.5rem;
+  font-size: 0.92rem;
 }
 
 .nav nav a {
+  padding: 1.25rem 0 1.05rem;
+  border-bottom: 2px solid transparent;
   color: var(--muted);
   text-decoration: none;
 }
 
-.nav nav a:hover,
+.nav nav a:hover {
+  color: var(--text);
+}
+
 .nav nav a[aria-current="page"] {
+  border-bottom-color: var(--link);
   color: var(--text);
 }
 
@@ -153,32 +143,73 @@ img {
 }
 
 .role {
-  margin-bottome: 1rem;
+  margin-bottom: 1rem;
 }
 
 .contact-links {
   font-size: 0.92rem;
 }
 
-.publication {
-  display: grid;
-  grid-template-columns: 4rem minmax(0, 1fr);
-  gap: 1rem;
-  margin: 1.4rem 0;
+.publications-intro {
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 
-.publication-year {
+.pub-year {
+  margin: 3rem 0 0 !important;
+  padding: 0 0 0.55rem !important;
+  border-top: 0 !important;
+  border-bottom: 1px solid var(--rule);
+  font-size: 1.25rem !important;
+}
+
+.pub-entry {
+  display: grid;
+  grid-template-columns: 5rem minmax(0, 1fr);
+  gap: 1.25rem;
+  padding: 1.35rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.pub-venue {
+  padding-top: 0.15rem;
+  color: var(--link);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.pub-title {
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.pub-authors,
+.pub-conference,
+.pub-links,
+.pub-note {
   color: var(--muted);
   font-size: 0.9rem;
+  line-height: 1.55;
 }
 
-.publication-title {
-  font-weight: 650;
+.pub-conference {
+  font-style: italic;
 }
 
-.publication-meta {
-  margin-top: 0.2rem;
-  font-size: 0.93rem;
+.pub-links {
+  margin-top: 0.25rem;
+}
+
+.pub-links a {
+  margin-right: 0.6rem;
+}
+
+.pub-note {
+  margin-top: 0.25rem;
+  font-size: 0.82rem;
 }
 
 .site-footer {
@@ -194,15 +225,23 @@ img {
   }
 
   .nav {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 0.65rem;
-    padding: 1rem 0;
+    justify-content: flex-start;
+    min-height: auto;
+    overflow-x: auto;
   }
 
   .nav nav {
-    flex-wrap: wrap;
-    gap: 0.4rem 1rem;
+    flex-wrap: nowrap;
+    gap: 1.1rem;
+  }
+
+  .nav nav a {
+    white-space: nowrap;
+  }
+
+  .pub-entry {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
   }
 
   .page-content {
@@ -210,7 +249,7 @@ img {
   }
 
   .profile {
-    grip-template-columns: 100px minmax(0, 1fr);
+    grid-template-columns: 100px minmax(0, 1fr);
     gap: 1.25rem;
   }
 
@@ -219,7 +258,7 @@ img {
   }
 
   .publication {
-    grip-tempate-columns: 1fr;
+    grid-template-columns: 1fr;
     gap: 0.15rem;
   }
 }
