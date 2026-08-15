@@ -18,16 +18,12 @@ layout: default
                 I am a postdoctoral researcher at the Seoul National University (SNU) Institute of Computer Technology, currently serving my mandatory military service as expert research personnel. I earned my Ph.D. from <a href="http://sor.snu.ac.kr">Security Optimization Lab (SOR Lab)</a> in the Department of ECE at SNU, under the supervision of Professor <a href="http://sor.snu.ac.kr/document/ypaek">Yunheung Paek</a>.
             </p>
 
-            <section class="research-block" aria-labelledby="research-interests-title">
-                <h2 id="research-interests-title">Research Interests</h2>
-
-                <ul class="research-interests">
-                    <li>Systems Security</li>
-                    <li>Autonomous Vehicle Security</li>
-                    <li>Confidential Computing</li>
-                    <li>On-device AI Security</li>
-                </ul>
-            </section>
+            <ul class="research-interests" aria-label="Research interests">
+                <li>Systems Security</li>
+                <li>Autonomous Vehicle Security</li>
+                <li>Confidential Computing</li>
+                <li>On-device AI Security</li>
+            </ul>
         </div>
 
         <aside class="profile-aside">
@@ -39,7 +35,7 @@ layout: default
 
             <nav class="profile-links" aria-label="Professional links">
                 <a href="/assets/jsyou.pdf" title="CV" aria-label="CV">
-                    <i class="fa-regular fa-file-pdf" aria-hidden="true"></i>
+                    <span class="cv-mark" aria-hidden="true">CV</span>
                 </a>
                 <a href="mailto:jsyou@sor.snu.ac.kr" title="Email" aria-label="Email">
                     <i class="fa-regular fa-envelope" aria-hidden="true"></i>

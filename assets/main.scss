@@ -151,6 +151,7 @@ img {
   width: 100%;
   height: 260px;
   overflow: hidden;
+  border: 1px solid var(--rule);
   background: #eef0f2;
 }
 
@@ -159,7 +160,7 @@ img {
   top: 50%;
   left: 50%;
   width: auto;
-  height: 180%;
+  height: 165%;
   max-width: none;
   transform: translate(-56%, -58%);
 }
@@ -190,7 +191,7 @@ img {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.45rem 3rem;
-  margin: 0;
+  margin: 0.9rem 0 0;
   padding: 0.15rem 0 0 1.35rem !important;
   color: var(--text);
   font-size: 1.08rem;
@@ -205,17 +206,6 @@ img {
 .research-interests li::marker {
   color: var(--text);
   font-size: 0.9em;
-}
-
-.research-block {
-  margin-top: 1.75rem;
-}
-
-.research-block h2 {
-  margin: 0 0 1rem;
-  font-size: 1.35rem;
-  text-transform: uppercase;
-  letter-spacing: 0.025em;
 }
 
 .news-list p {
@@ -240,6 +230,14 @@ img {
 
 .profile-links a:hover {
   color: var(--link);
+}
+
+.cv-mark {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+  line-height: 1;
 }
 
 .pub-side {
