@@ -7,15 +7,15 @@ layout: default
     <div class="profile-main">
         <div class="profile-info">
             <p class="profile-position">
-                Postdoctoral Researcher / Expert Research Personnel (전문연구요원)
-                <br>
-                Institute of Computer Technology
+                Postdoctoral Researcher
                 <span class="profile-separator">|</span>
+                Expert Research Personnel (전문연구요원)<br>
+                Institute of Computer Technology<br>
                 Seoul National University
             </p>
 
             <p class="profile-bio">
-                I am a Postdoctoral Researcher at the Seoul National University (SNU) Institute of Computer Technology, currently serving my mandatory military service as Expert Research Personnel. I earned my Ph.D. from <a href="http://sor.snu.ac.kr">Security Optimization Lab (SOR Lab)</a> in the Department of Electrical and Computer Engineering at SNU, under the supervision of Professor <a href="http://sor.snu.ac.kr/document/ypaek">Yunheung Paek</a>.
+                I am a Postdoctoral Researcher at the Seoul National University (SNU) Institute of Computer Technology, currently serving my mandatory military service as Expert Research Personnel. I earned my Ph.D. from <a href="http://sor.snu.ac.kr">Security Optimization Lab (SOR Lab)</a> in the Department of Electrical and Computer Engineering at SNU, under the supervision of Professor <a href="http://sor.snu.ac.kr/document/ypaek">Yunheung Paek</a>. My current research interests include, but are not limited to:
             </p>
         </div>
         
@@ -28,8 +28,8 @@ layout: default
 
     <ul class="research-interests" aria-label="Research interests">
         <li>Systems Security</li>
+        <li>Autonomous Vehicle Security</li>
         <li>Confidential Computing</li>
-        <li>Autonomous Systems Security</li>
         <li>On-device AI Security</li>
     </ul>
 
@@ -43,9 +43,11 @@ layout: default
 
 ## News
 
-**Nov 2025** - New paper on securing connected vehicles has been accepted to *NDSS 2026*.
+<div class="news-list">
+    <p><strong>Nov 2025</strong> - New paper on securing connected vehicles has been accepted to <em>NDSS 2026</em>.</p>
 
-**May 2025** - New paper on byte-level access control has been accepted to *CCS 2025*.
+    <p><strong>May 2025</strong> - New paper on byte-level access control has been accepted to <em>CCS 2025</em>.</p>
+</div>
 
 ## Selected Publications
 
