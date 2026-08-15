@@ -19,11 +19,12 @@ layout: default
                 <a href="https://scholar.google.com/citations?user=hA5MNwcAAAAJ&hl=en">Google Scholar</a>
             </nav>
         </div>
-    
-        <img
-            class="profile-photo"
-            src="{{ '/assets/jsyou2.jpeg' | relative_url }}"
-            alt="Portrait of Junseung You">
+        
+        <div class="profile-photo">
+            <img
+                src="{{ '/assets/jsyou2.jpeg' | relative_url }}"
+                alt="Portrait of Junseung You">
+        </div>
     </div>
 </section>
 
