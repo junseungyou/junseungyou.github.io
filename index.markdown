@@ -15,7 +15,7 @@ layout: default
             </p>
 
             <p class="profile-bio">
-                I am a Postdoctoral Researcher at the Seoul National University (SNU) Institute of Computer Technology, currently serving my mandatory military service as Expert Research Personnel. I earned my Ph.D. from <a href="http://sor.snu.ac.kr">Security Optimization Lab (SOR Lab)</a> in the Department of Electrical and Computer Engineering at SNU, under the supervision of Professor <a href="http://sor.snu.ac.kr/document/ypaek">Yunheung Paek</a>. My current research interests include, but are not limited to:
+                I am a Postdoctoral Researcher at the Seoul National University (SNU) Institute of Computer Technology, currently serving my mandatory military service as Expert Research Personnel. I earned my Ph.D. from <a href="http://sor.snu.ac.kr">Security Optimization Lab (SOR Lab)</a> in the Department of Electrical and Computer Engineering at SNU, under the supervision of Professor <a href="http://sor.snu.ac.kr/document/ypaek">Yunheung Paek</a>.
             </p>
         </div>
         
@@ -26,19 +26,23 @@ layout: default
         </div>
     </div>
 
-    <ul class="research-interests" aria-label="Research interests">
-        <li>Systems Security</li>
-        <li>Autonomous Vehicle Security</li>
-        <li>Confidential Computing</li>
-        <li>On-device AI Security</li>
-    </ul>
-
     <nav class="profile-links" aria-label="Professional links">
         <a href="/assets/jsyou.pdf">CV</a>
         <a href="mailto:jsyou@sor.snu.ac.kr">Email</a>
         <a href="https://github.com/junseungyou">Github</a>
         <a href="https://scholar.google.com/citations?user=hA5MNwcAAAAJ&hl=en">Google Scholar</a>
     </nav>
+</section>
+
+<section class="research-block" aria-labelledby="research-interests-title">
+    <h2 id="research-interests-title">Research Interests</h2>
+
+    <ul class="research-interests">
+        <li>Systems Security</li>
+        <li>Autonomous Vehicle Security</li>
+        <li>Confidential Computing</li>
+        <li>On-device AI Security</li>
+    </ul>
 </section>
 
 ## News

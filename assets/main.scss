@@ -124,7 +124,7 @@ img {
 }
 
 .profile {
-  margin-bottom: 3.5rem;
+  margin-bottom: 0;
 }
 
 .profile-name {
@@ -188,24 +188,34 @@ img {
 
 .research-interests {
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  justify-content: start;
-  gap: 0.3rem 2rem;
-  margin: 0.55rem 0 0.85rem;
-  padding: 0 !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.45rem 3rem;
+  margin: 0;
+  padding: 0.15rem 0 0 1.35rem !important;
   color: var(--text);
-  font-size: 0.92rem;
-  list-style: none;
+  font-size: 1.08rem;
+  line-height: 1.55;
 }
 
 .research-interests li {
   margin: 0 !important;
+  padding-left: 0.15rem;
 }
 
-.research-interests li::before {
-  margin-right: 0.4rem;
-  color: var(--link);
-  content: "\2022";
+.research-interests li::marker {
+  color: var(--text);
+  font-size: 0.9em;
+}
+
+.research-block {
+  margin-top: 2.75rem;
+}
+
+.research-block h2 {
+  margin: 0 0 1rem;
+  font-size: 1.35rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
 }
 
 .news-list p {
@@ -366,6 +376,8 @@ img {
 
   .research-interests {
     grid-template-columns: 1fr;
+    gap: 0.3rem;
+    font-size: 1rem;
   }
 
   .publication {
