@@ -3,3 +3,136 @@
 ---
 
 @import "minima";
+
+:root {
+  --paper: #f7f6f2;
+  --ink: #1d1e20;
+  --muted: #6a6d72;
+  --accent: #214f4b;
+  --rule: #d9d8d1;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.65;
+}
+
+h1, h2, h3, .site-title {
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: -0.02em;
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 0.18em;
+}
+
+.site-header {
+  border-top: 0;
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper);
+}
+
+.nav {
+  min-height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav nav {
+  display: flex;
+  gap: 1.25rem;
+  font-size: 0.9rem;
+}
+
+.page-content {
+  padding-top: 4.5rem;
+  padding-bottom: 5rem;
+}
+
+.page-content h2 {
+  margin-top: 4rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--rule);
+  font-size: 1.45rem;
+}
+
+.page-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.25rem;
+  font-size: 1.1rem;
+}
+
+.eyebrow {
+  margin-bottom: 1rem;
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12rem;
+}
+
+.lead {
+  max-width: 38rem;
+  font-size: 1.3rem;
+  line-height: 1.45;
+}
+
+.home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 10rem;
+  gap: 3rem;
+  align-items: start;
+  padding-bottom: 1rem;
+}
+
+.home-hero h1 {
+  margin-bottom: 0.6rem;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1;
+}
+
+.profile-photo {
+  width: 10rem;
+  aspect-ratio: 1;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.page-content li {
+  margin-bottom: 1.5rem;
+}
+
+/* Keep links simple and text-like; do not add button or card styling. */
+a: hover {
+  color: var(--ink);
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .nav nav {
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+  }
+
+  .profile-photo {
+    grid-row: 1;
+    width: 7rem;
+  }
+}

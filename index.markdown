@@ -1,60 +1,60 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: page
+title: Introduction
 ---
-**About Me.**
-I am a Postdoctoral Researcher at the Seoul National University (SNU) Institute of Computer Technology, currently serving my mandatory military service as Expert Research Personnel. I earned my Ph.D. from [Security Optimization Lab (SOR Lab)](http://sor.snu.ac.kr) in the Department of Electrical and Computer Engineering at SNU, under the supervision of Professor [Yunheung Paek](http://sor.snu.ac.kr/document/ypaek).
-My research agenda develops **hardware-assisted mechanisms that efficiently address fundamental systems security challenges** such as memory safety and isolation, leveraging architectural primitives including Arm Memory Tagging Extension (MTE) and trusted execution environments (TEEs). My work is grounded in low-level systems development across the compiler/toolchain, operating system kernel, and hypervisor. Please checkout my [Curriculum Vitae (CV)](https://junseungyou.github.io/assets/jsyou.pdf) for more information.
 
+<div class="home-hero">
+    <div>
+        <p class="eyebrow">SYSTEMS SECURITY · SEOUL, KOREA</p>
+
+        # Junseung You
+
+        <p class="lead">
+            Postdoctoral researcher at Seoul National University Institute of Computer Technology, currently serving mandatory military service as expert military personnel (전문연구요원).
+        </p>
+
+        <p>
+            I study hardware-assisted system security, with a focus on memory safety, isolation, access control, and confidential computing.
+        </p>
+
+        <p class="hero-links">
+            <a href="mailto:jsyou@sor.snu.ac.kr">Email</a>
+            <a href="/assets/jsyou.pdf">CV</a>
+            <a href="https://github.com/junseungyou">Github</a>
+        </p>
+    </div>
+
+    <img class="profile-photo" src="/assets/jsyou.jpg"
+        alt="Portrait of Junseung You">
+</div>
+
+## Selected Publications
+
+### SECV
+**Securing Connected Vehicles with Hardware Trust Anchors**
+Martin Kayondo⭑, **Junseung You**⭑, Eunmin Kim, Jiwon Seo, and Yunheung Paek
+*NDSS, 2026* . [Paper](/assets/secv.pdf)
+⭑ co-first authors
+
+### BASTAG
+**Byte-level Access Control on Shared Memory using ARM Memory Tagging Extension**
+**Junseung You**, Jiwon Seo, Kyeongryong Lee, Yeongpil Cho, and Yunheung Paek
+*ACM CCS, 2025* . [Paper](/assets/bastag.pdf) · [Slides](/assets/bastag-slides.pdf)
+
+### KVSEV
+**A Secure In-Memory Key-Value Store with Secure ENcrypted Virtualization**
+**Junseung You**, Kyeongryong Lee, Hyungon Moon, Yeongpil Cho, and Yunheung Paek
+*SoCC, 2023* . [Paper](/assets/kvsev.pdf) · [Slides](/assets/kvsev-slides.pdf)
+
+### ZOMETAG
+**Zone-based Memory Tagging for Fast, Deterministic Detection of Spatial Memory Violations on ARM**
+Jiwon Seo⭑, **Junseung You**⭑, Donghyun Kwon, Yeongpil Cho, and Yunheung Paek
+*IEEE TIFS, 2023* . [Paper](/assets/zometag.pdf)
+⭑ co-first authors
+
+[View all publications →](/publications)
 
 ## News
-* (2025/11) New paper on securing connected vehicles has been accepted to **<u>NDSS</u>**.
-* (2025/05) New paper on byte-level access control on shared memory has been accepted to **<u>ACM CCS</u>**.
 
-## Publications
-* **SECV: Securing Connected Vehicles with Hardware Trust Anchors**<br>
-Martin Kayondo⭑, **<u>Junseung You</u>**⭑, Eunmin Kim, Jiwon Seo, and Yunheung Paek<br>
-Network and Distributed System Security (NDSS) Symposium 2026
-\[[paper](https://junseungyou.github.io/assets/secv.pdf)\]<br>
-⭑ co-first authors
-
-* **BASTAG: Byte-level Access Control on Shared Memory using ARM Memory Tagging Extension**<br>
-**<u>Junseung You</u>**, Jiwon Seo, Kyeongryong Lee, Yeongpil Cho, and Yunheung Paek<br>
-ACM SIGSAC Conference on Computer and Communications Security (**CCS**) 2025
-\[[paper](https://junseungyou.github.io/assets/bastag.pdf)\]
-\[[slides](https://junseungyou.github.io/assets/bastag-slides.pdf)\]
-
-* **KVSEV: A Secure In-Memmory Key-Value Store with Secure Encrypted Virtualization**<br>
-**<u>Junseung You</u>**, Kyeongryong Lee, Hyungon Moon, Yeongpil Cho, and Yunheung Paek<br>
-ACM Symposium on Cloud Computing (**SoCC**) 2023
-\[[paper](https://junseungyou.github.io/assets/kvsev.pdf)\]
-\[[slides](https://junseungyou.github.io/assets/kvsev-slides.pdf)\]
-
-* **ZOMETAG: Zone-based Memory Tagging for Fast, Deterministic Detection of Spatial Memory Violations on ARM**<br>
-Jiwon Seo⭑, **<u>Junseung You</u>**⭑, Donghyun Kwon, Yeongpil Cho, and Yunheung Paek<br>
-IEEE Transactions on Information Forensics and Security (**TIFS**) 2023
-\[[paper](https://junseungyou.github.io/assets/zometag.pdf)\]<br>
-⭑ co-first authors
-
-* **SFITAG: Efficient Software Fault Isolation with Memory Tagging for ARM Kernel Extensions**<br>
-Jiwon Seo, **<u>Junseung You</u>**, Yungi Cho, Yeongil Cho, Donghyun Kwon, and Yunheung Paek<br>
-ACM Asia Conference on Computer and Communications Security (**ASIACCS**) 2023
-\[[paper](https://junseungyou.github.io/assets/sfitag.pdf)\]
-
-* **Enhancing a Lock-and-Key Scheme with MTE to Mitigate Use-After-Frees**<br>
-Inyoung Bang, Martin Kayondo, **<u>Junseung You</u>**, Donghyun Kwon, Yeongpil Cho, and Yunheung Paek<br>
-IEEE Access 2023
-\[[paper](https://junseungyou.github.io/assets/vatalloc.pdf)\]
-
-* **SBGen: A Framework to Efficiently Supply Runtime Information for a Learning-based HIDS for Multiple Virtual Machines**<br>
-Jiwon Seo, Inyoung Bang, **<u>Junseung You</u>**, Yeongil Cho, and Yunheung Paek<br>
-IEEE Access 2020
-\[[paper](https://junseungyou.github.io/assets/sbgen.pdf)\]
-
-
-## Services
-* IEEE S&P 2026 Artifact Evaluation Committee
-* IEEE Transactions on Dependable and Secure Computing 2025 Reviewer
-* EuroSys 2025 Shadow Program Committee
+**Nov 2025** - New paper on securing connected vehicles has been accepted to *NDSS 2026*.
+**May 2025** - New paper on byte-level access control on shared memory has been accepted to *CCS 2025*.
