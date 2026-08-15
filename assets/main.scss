@@ -160,15 +160,31 @@ img {
   top: 50%;
   left: 50%;
   width: auto;
-  height: 225%;
+  height: 150%;
   max-width: none;
   transform: translate(-56%, -54%);
 }
 
-.role {
+.profile-position {
+  max-width: none !important;
+  margin: 0 0 1rem !important;
+  color: var(--text);
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.profile-separator {
+  margin: 0 0.35rem;
+  color: var(--muted);
+}
+
+.profile-bio {
+  max-width: none !important;
   margin: 0 0 1.25rem !important;
   color: var(--text);
-  line-height: 1.75;
+  font-size: 0.95rem;
+  line-height: 1.7;
 }
 
 .profile-links {
@@ -310,6 +326,20 @@ img {
   .profile-photo {
     width: 100px;
     height: 100px;
+  }
+
+  .profile-position {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.88rem;
+  }
+
+  .profile-separator {
+    display: none;
+  }
+
+  .profile-bio {
+    font-size: 0.9rem;
   }
 
   .publication {

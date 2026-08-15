@@ -6,10 +6,16 @@ layout: default
     
     <div class="profile-main">
         <div class="profile-info">
-            <p class="role">
-                Postdoctoral Researcher<br>
-                Institute of Computer Technology<br>
+            <p class="profile-position">
+                Postdoctoral Researcher / Expert Research Personnel (전문연구요원)
+                <span class="profile-separator">|</span>
+                Institute of Computer Technology
+                <span class="profile-separator">|</span>
                 Seoul National University
+            </p>
+
+            <p class="profile-bio">
+                I am a Postdoctoral Researcher at the Seoul National University (SNU) Institute of Computer Technology, currently serving my mandatory military service as Expert Research Personnel. I earned my Ph.D. from <a href="http://sor.snu.ac.kr">Security Optimization Lab (SOR Lab)</a> in the Department of Electrical and Computer Engineering at SNU, under the supervision of Professor <a href="http://sor.snu.ac.kr/document/ypaek">Yunheung Paek</a>. My research agenda develops hardware-assisted mechanisms that efficiently address fundamental systems security challenges.
             </p>
     
             <nav class="profile-links" aria-label="Professional links">
