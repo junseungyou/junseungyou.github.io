@@ -199,11 +199,11 @@ img {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.3rem 3rem;
-  margin: 0;
+  margin: 0.35rem 0 0;
   padding: 0 0 0 1.35rem !important;
   color: var(--text);
   font-size: 0.95rem;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.45;
 }
 
@@ -217,10 +217,16 @@ img {
   font-size: 0.9em;
 }
 
-.news-list p {
-  width: 100%;
-  max-width: none;
+.news-entry {
+  display: grid;
+  grid-template-columns: 5.5rem minmax(0, 1fr);
+  gap: 1rem;
   margin-bottom: 0.3rem;
+}
+
+.news-date {
+  font-weight: 650;
+  white-space: nowrap;
 }
 
 .profile + h2 {
@@ -376,6 +382,51 @@ img {
 
 .talk-slides:hover {
   color: var(--text);
+}
+
+.record-list {
+  border-bottom: 1px solid var(--rule);
+}
+
+.record-entry {
+  padding: 0.95rem 0;
+  border-top: 1px solid var(--rule);
+}
+
+.record-entry:first-child {
+  border-top: 0;
+}
+
+.record-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2rem;
+}
+
+.record-title {
+  font-weight: 650;
+}
+
+.record-date,
+.record-meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.record-date {
+  white-space: nowrap;
+}
+
+.record-detail {
+  margin-top: 0.15rem;
+}
+
+.record-meta {
+  margin-top: 0.1rem;
+}
+
+.service-list .record-entry {
+  padding: 0.7rem 0;
 }
 
 .publications-toggle:not(:checked) + .publications-heading + .publication-list .publication-optional {
@@ -547,6 +598,17 @@ img {
   .talk-heading {
     grid-template-columns: 1fr;
     gap: 0.2rem;
+  }
+
+  .record-heading {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+
+  .news-entry {
+    grid-template-columns: 1fr;
+    gap: 0.05rem;
+    margin-bottom: 0.65rem;
   }
 
   .publication {

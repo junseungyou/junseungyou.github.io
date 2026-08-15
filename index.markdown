@@ -54,9 +54,20 @@ layout: default
 ## News
 
 <div class="news-list">
-    <p><strong>Nov 2025</strong> - New paper on securing connected vehicles has been accepted to <em>NDSS 2026</em>.</p>
-
-    <p><strong>May 2025</strong> - New paper on byte-level access control has been accepted to <em>CCS 2025</em>.</p>
+    <div class="news-entry">
+        <div class="news-date">Jul 2026</div>
+        <div>I was selected for postdoctoral research funding through Seoul National University's BK21 FOUR program for Future Leaders in Information Technology.</div>
+    </div>
+    
+    <div class="news-entry">
+        <div class="news-date">Nov 2025</div>
+        <div>New paper on securing connected vehicles has been accepted to <em>NDSS 2026</em>.</div>
+    </div>
+        
+    <div class="news-entry">
+        <div class="news-date">May 2025</div>
+        <div>New paper on byte-level access control has been accepted to <em>CCS 2025</em>.</div>
+    </div>
 </div>
 
 <div class="publications-section">
@@ -294,6 +305,25 @@ layout: default
 
 ## Experience
 
+<div class="record-list">
+    <div class="record-entry">
+        <div class="record-heading">
+            <div class="record-title">Arizona State University, Tempe, AZ, USA</div>
+            <div class="record-date">2024</div>
+        </div>
+        <div class="record-detail">Visiting Researcher</div>
+        <div class="record-meta">Advisors: Prof. Gail-Joon Ahn and Prof. Hokeun Kim</div>
+    </div>
+
+    <div class="record-entry">
+        <div class="record-heading">
+            <div class="record-title">National University of Singapore, Singapore, Singapore</div>
+            <div class="record-date">2018</div>
+        </div>
+        <div class="record-detail">Research Intern</div>
+        <div class="record-meta">Advisor: Prof. Min Suk Kang</div>
+    </div>
+</div>
 
 ## Talks &amp; Seminars
 
@@ -338,3 +368,40 @@ layout: default
 </div>
 
 ## Services
+
+<div class="record-list service-list">
+    <div class="record-entry">
+        <div class="record-heading">
+            <div>IEEE Security and Privacy Artifact Evaluation Committee</div>
+            <div class="record-date">2026</div>
+        </div>
+    </div>
+
+    <div class="record-entry">
+        <div class="record-heading">
+            <div>ACM EuroSys Shadow Program Committee</div>
+            <div class="record-date">2025</div>
+        </div>
+    </div>
+
+    <div class="record-entry">
+        <div class="record-heading">
+            <div>IEEE Transactions on Dependable and Secure Computing Reviewer</div>
+            <div class="record-date">2025</div>
+        </div>
+    </div>
+
+    <div class="record-entry">
+        <div class="record-heading">
+            <div>IEEE Transactions on Computers Secondary Reviewer</div>
+            <div class="record-date">2025</div>
+        </div>
+    </div>
+
+    <div class="record-entry">
+        <div class="record-heading">
+            <div>Silicon Valley Cybersecurity Conference Secondary Reviewer</div>
+            <div class="record-date">2025</div>
+        </div>
+    </div>
+</div>
