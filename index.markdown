@@ -296,3 +296,45 @@ layout: default
 
 
 ## Talks &amp; Seminars
+
+<div class="talk-list">
+    <div class="talk-entry">
+        <div class="talk-heading">
+            <div class="talk-title">A Systematic Look at Mutual Privacy in AI Model Usage</div>
+            <div class="talk-date">May 2026</div>
+        </div>
+        <div class="talk-meta">
+            <span>한국정보보호학회(KIISC) 차세대 저작권보호기술 워크숍</span>
+            <!-- Replace # with the slides URL. -->
+            <a class="talk-slides" href="/assets/seminar_workshop.pdf" title="Slides" aria-label="Slides">
+                <i class="fa-regular fa-file-powerpoint" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-heading">
+            <div class="talk-title">Hardware-Assisted Security on Arm Mobile Platforms—From Memory Safety to Confidential Computing</div>
+            <div class="talk-date">Dec 2025</div>
+        </div>
+        <div class="talk-meta">
+            <span>Pusan National University (online)</span>
+        </div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-heading">
+            <div class="talk-title">Hardware-Assisted Security on Arm Mobile Platforms—From Memory Safety to Confidential Computing</div>
+            <div class="talk-date">Nov 2025</div>
+        </div>
+        <div class="talk-meta">
+            <span>Sejong University</span>
+            <!-- Replace # with the slides URL. -->
+            <a class="talk-slides" href="/assets/seminar_sejong.pdf" title="Slides" aria-label="Slides">
+                <i class="fa-regular fa-file-powerpoint" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+## Services
