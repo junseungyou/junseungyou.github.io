@@ -17,32 +17,42 @@ layout: default
             <p class="profile-bio">
                 I am a postdoctoral researcher at the Seoul National University (SNU) Institute of Computer Technology, currently serving my mandatory military service as expert research personnel. I earned my Ph.D. from <a href="http://sor.snu.ac.kr">Security Optimization Lab (SOR Lab)</a> in the Department of ECE at SNU, under the supervision of Professor <a href="http://sor.snu.ac.kr/document/ypaek">Yunheung Paek</a>.
             </p>
+
+            <section class="research-block" aria-labelledby="research-interests-title">
+                <h2 id="research-interests-title">Research Interests</h2>
+
+                <ul class="research-interests">
+                    <li>Systems Security</li>
+                    <li>Autonomous Vehicle Security</li>
+                    <li>Confidential Computing</li>
+                    <li>On-device AI Security</li>
+                </ul>
+            </section>
         </div>
-        
-        <div class="profile-photo">
-            <img
-                src="{{ '/assets/jsyou2.jpeg' | relative_url }}"
-                alt="Portrait of Junseung You">
-        </div>
+
+        <aside class="profile-aside">
+            <div class="profile-photo">
+                <img
+                    src="{{ '/assets/jsyou2.jpeg' | relative_url }}"
+                    alt="Portrait of Junseung You">
+            </div>
+
+            <nav class="profile-links" aria-label="Professional links">
+                <a href="/assets/jsyou.pdf" title="CV" aria-label="CV">
+                    <i class="fa-regular fa-file-pdf" aria-hidden="true"></i>
+                </a>
+                <a href="mailto:jsyou@sor.snu.ac.kr" title="Email" aria-label="Email">
+                    <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/junseungyou" title="GitHub" aria-label="GitHub">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://scholar.google.com/citations?user=hA5MNwcAAAAJ&hl=en" title="Google Scholar" aria-label="Google Scholar">
+                    <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+                </a>
+            </nav>
+        </aside>
     </div>
-
-    <nav class="profile-links" aria-label="Professional links">
-        <a href="/assets/jsyou.pdf">CV</a>
-        <a href="mailto:jsyou@sor.snu.ac.kr">Email</a>
-        <a href="https://github.com/junseungyou">Github</a>
-        <a href="https://scholar.google.com/citations?user=hA5MNwcAAAAJ&hl=en">Google Scholar</a>
-    </nav>
-</section>
-
-<section class="research-block" aria-labelledby="research-interests-title">
-    <h2 id="research-interests-title">Research Interests</h2>
-
-    <ul class="research-interests">
-        <li>Systems Security</li>
-        <li>Autonomous Vehicle Security</li>
-        <li>Confidential Computing</li>
-        <li>On-device AI Security</li>
-    </ul>
 </section>
 
 ## News

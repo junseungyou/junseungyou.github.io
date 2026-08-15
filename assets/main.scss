@@ -138,7 +138,7 @@ img {
 .profile-main {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 220px;
-  align-items: stretch;
+  align-items: start;
   gap: 3rem;
 }
 
@@ -149,7 +149,7 @@ img {
 .profile-photo {
   position: relative;
   width: 100%;
-  min-height: 230px;
+  height: 260px;
   overflow: hidden;
   background: #eef0f2;
 }
@@ -208,7 +208,7 @@ img {
 }
 
 .research-block {
-  margin-top: 2.75rem;
+  margin-top: 1.75rem;
 }
 
 .research-block h2 {
@@ -226,17 +226,20 @@ img {
 
 .profile-links {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem 1.1rem;
-  font-size: 0.92rem;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.8rem;
 }
 
 .profile-links a {
+  color: var(--muted);
+  font-size: 1.15rem;
   text-decoration: none;
 }
 
 .profile-links a:hover {
-  text-decoration: underline;
+  color: var(--link);
 }
 
 .pub-side {
@@ -363,7 +366,10 @@ img {
   .profile-photo {
     width: 180px;
     height: 220px;
-    min-height: 0;
+  }
+
+  .profile-aside {
+    width: 180px;
   }
 
   .profile-position {
