@@ -160,9 +160,9 @@ img {
   top: 50%;
   left: 50%;
   width: auto;
-  height: 125%;
+  height: 110%;
   max-width: none;
-  transform: translate(-56%, -58%);
+  transform: translate(-56%, -54%);
 }
 
 .profile-position {
@@ -194,8 +194,9 @@ img {
   margin: 0.9rem 0 0;
   padding: 0.15rem 0 0 1.35rem !important;
   color: var(--text);
-  font-size: 0.95rem;
-  line-height: 1.55;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.7;
 }
 
 .research-interests li {
@@ -381,7 +382,7 @@ img {
   .research-interests {
     grid-template-columns: 1fr;
     gap: 0.3rem;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
   .publication {
