@@ -163,14 +163,15 @@ img {
   top: 50%;
   left: 50%;
   width: auto;
-  height: 150%;
+  height: 145%;
   max-width: none;
-  transform: translate(-56%, -67%);
+  transform: translate(-56%, -65%);
 }
 
 .profile-position {
   max-width: none !important;
-  margin: 0 0 1rem !important;
+  margin: 0 0 auto !important;
+  padding-bottom: 1rem;
   color: var(--text);
   font-size: 1.05rem;
   font-weight: 600;
@@ -193,8 +194,8 @@ img {
 .research-interests {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0 3rem;
-  margin: auto 0 0;
+  gap: 0.3rem 3rem;
+  margin: 0.2rem 0 0;
   padding: 0.15rem 0 0 1.35rem !important;
   color: var(--text);
   font-size: 0.95rem;
@@ -225,14 +226,16 @@ img {
 .profile-links {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1rem;
+  justify-content: space-between;
+  gap: 0;
+  width: 100%;
   margin-top: 0.8rem;
+  padding: 0 0.65rem;
 }
 
 .profile-links a {
   color: var(--muted);
-  font-size: 1.15rem;
+  font-size: 1.35rem;
   text-decoration: none;
 }
 
@@ -242,7 +245,7 @@ img {
 
 .cv-mark {
   display: inline-block;
-  font-size: 0.78rem;
+  font-size: 0.9rem;
   font-weight: 750;
   letter-spacing: -0.02em;
   line-height: 1;
@@ -270,7 +273,8 @@ img {
   font-weight: 650;
 }
 
-.education-toggle {
+.education-toggle,
+.publications-toggle {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -278,7 +282,8 @@ img {
   opacity: 0;
 }
 
-.education-heading label {
+.education-heading label,
+.publications-heading label {
   color: var(--link);
   font-size: 0.82rem;
   font-weight: 400;
@@ -287,7 +292,8 @@ img {
   cursor: pointer;
 }
 
-.education-toggle:focus + .education-heading label {
+.education-toggle:focus + .education-heading label,
+.publications-toggle:focus + .publications-heading label {
   outline: 2px solid var(--link);
   outline-offset: 3px;
 }
@@ -304,6 +310,10 @@ img {
   border-top: 1px solid var(--rule);
 }
 
+.education-entry:first-child {
+  border-top: 0;
+}
+
 .education-date {
   color: var(--muted);
   font-size: 0.9rem;
@@ -312,6 +322,16 @@ img {
 
 .education-toggle:not(:checked) + .education-heading + .education-list .education-optional {
   display: none;
+}
+
+.publications-toggle:not(:checked) + .publications-heading + .publication-list .publication-optional {
+  display: none;
+}
+
+.pub-status {
+  font-size: 0.75rem;
+  line-height: 1.25;
+  text-transform: none;
 }
 
 .pub-side {

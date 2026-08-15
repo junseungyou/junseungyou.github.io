@@ -59,7 +59,30 @@ layout: default
     <p><strong>May 2025</strong> - New paper on byte-level access control has been accepted to <em>CCS 2025</em>.</p>
 </div>
 
-## Publications
+<div class="publications-section">
+<input class="publications-toggle" type="checkbox" id="publications-full" aria-label="Show full publication list">
+<h2 class="publications-heading">Publications <label for="publications-full">(full)</label></h2>
+
+<div class="publication-list">
+    <article class="pub-entry publication-optional">
+        <div class="pub-side">
+            <div class="pub-venue pub-status">Under submission</div>
+        </div>
+        
+        <div class="pub-body">
+            <div class="pub-title">CCAX: Extending Confidential Virtual Machine for Nested Enclaves on ARM</div>
+        </div>
+    </article>
+        
+    <article class="pub-entry publication-optional">
+        <div class="pub-side">
+            <div class="pub-venue pub-status">Under submission</div>
+        </div>
+        
+        <div class="pub-body">
+            <div class="pub-title">Hardware-assisted Isolation of Rust from Unsafe Languages on ARM</div>
+        </div>
+    </article>
 
 <article class="pub-entry">
     <div class="pub-side">
@@ -242,6 +265,9 @@ layout: default
         </div>
     </div>
 </article>
+
+</div>
+</div>
 
 
 <div class="education-section">
