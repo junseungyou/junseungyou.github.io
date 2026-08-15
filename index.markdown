@@ -8,22 +8,15 @@ layout: default
         <div class="profile-info">
             <p class="profile-position">
                 Postdoctoral Researcher / Expert Research Personnel (전문연구요원)
-                <span class="profile-separator">|</span>
+                <br>
                 Institute of Computer Technology
                 <span class="profile-separator">|</span>
                 Seoul National University
             </p>
 
             <p class="profile-bio">
-                I am a Postdoctoral Researcher at the Seoul National University (SNU) Institute of Computer Technology, currently serving my mandatory military service as Expert Research Personnel. I earned my Ph.D. from <a href="http://sor.snu.ac.kr">Security Optimization Lab (SOR Lab)</a> in the Department of Electrical and Computer Engineering at SNU, under the supervision of Professor <a href="http://sor.snu.ac.kr/document/ypaek">Yunheung Paek</a>. My research agenda develops hardware-assisted mechanisms that efficiently address fundamental systems security challenges.
+                I am a Postdoctoral Researcher at the Seoul National University (SNU) Institute of Computer Technology, currently serving my mandatory military service as Expert Research Personnel. I earned my Ph.D. from <a href="http://sor.snu.ac.kr">Security Optimization Lab (SOR Lab)</a> in the Department of Electrical and Computer Engineering at SNU, under the supervision of Professor <a href="http://sor.snu.ac.kr/document/ypaek">Yunheung Paek</a>.
             </p>
-    
-            <nav class="profile-links" aria-label="Professional links">
-                <a href="/assets/jsyou.pdf">CV</a>
-                <a href="mailto:jsyou@sor.snu.ac.kr">Email</a>
-                <a href="https://github.com/junseungyou">Github</a>
-                <a href="https://scholar.google.com/citations?user=hA5MNwcAAAAJ&hl=en">Google Scholar</a>
-            </nav>
         </div>
         
         <div class="profile-photo">
@@ -32,6 +25,20 @@ layout: default
                 alt="Portrait of Junseung You">
         </div>
     </div>
+
+    <ul class="research-interests" aria-label="Research interests">
+        <li>Systems Security</li>
+        <li>Confidential Computing</li>
+        <li>Autonomous Systems Security</li>
+        <li>On-device AI Security</li>
+    </ul>
+
+    <nav class="profile-links" aria-label="Professional links">
+        <a href="/assets/jsyou.pdf">CV</a>
+        <a href="mailto:jsyou@sor.snu.ac.kr">Email</a>
+        <a href="https://github.com/junseungyou">Github</a>
+        <a href="https://scholar.google.com/citations?user=hA5MNwcAAAAJ&hl=en">Google Scholar</a>
+    </nav>
 </section>
 
 ## News
