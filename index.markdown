@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<section class="profile">
+<section class="profile" id="home">
     <h1 class="profile-name">Junseung You (유준승)</h1>
-    
+
     <div class="profile-main">
         <div class="profile-info">
             <p class="profile-position">
@@ -15,15 +15,8 @@ layout: default
             </p>
 
             <p class="profile-bio">
-                I am a postdoctoral researcher at the Seoul National University (SNU) Institute of Computer Technology, currently serving my mandatory military service as expert research personnel. I earned my Ph.D. from <a href="http://sor.snu.ac.kr">Security Optimization Lab (SOR Lab)</a> in the Department of ECE at SNU, under the supervision of Professor <a href="http://sor.snu.ac.kr/document/ypaek">Yunheung Paek</a>. My research interests include:
+                I am a postdoctoral researcher at the Seoul National University (SNU) Institute of Computer Technology, currently serving my mandatory military service as expert research personnel. I earned my Ph.D. from <a href="http://sor.snu.ac.kr">Security Optimization Lab (SOR Lab)</a> in the Department of ECE at SNU, under the supervision of Professor <a href="http://sor.snu.ac.kr/document/ypaek">Yunheung Paek</a>. My current research interests include, but are not limited to: <strong>systems security</strong>, <strong>autonomous vehicle security</strong>, <strong>confidential computing</strong>, and <strong>on-device AI security</strong>.
             </p>
-
-            <ul class="research-interests" aria-label="Research interests">
-                <li>Systems Security</li>
-                <li>Autonomous Vehicle Security</li>
-                <li>Confidential Computing</li>
-                <li>On-device AI Security</li>
-            </ul>
         </div>
 
         <aside class="profile-aside">
@@ -72,7 +65,7 @@ layout: default
 
 <div class="publications-section">
 <input class="publications-toggle" type="checkbox" id="publications-full" aria-label="Show full publication list">
-<h2 class="publications-heading">Publications <label for="publications-full">(full)</label></h2>
+<h2 class="publications-heading" id="publications">Publications <label for="publications-full">(full)</label></h2>
 
 <div class="publication-list">
     <article class="pub-entry publication-optional">
@@ -283,7 +276,7 @@ layout: default
 
 <div class="education-section">
 <input class="education-toggle" type="checkbox" id="education-full" aria-label="Show full education history">
-<h2 class="education-heading">Education <label for="education-full">(full)</label></h2>
+<h2 class="education-heading" id="education">Education <label for="education-full">(full)</label></h2>
 
 <div class="education-list">
     <div class="education-entry">
@@ -303,7 +296,7 @@ layout: default
 </div>
 </div>
 
-## Experience
+<h2 id="experience">Experience</h2>
 
 <div class="record-list">
     <div class="record-entry">
@@ -325,7 +318,7 @@ layout: default
     </div>
 </div>
 
-## Talks &amp; Seminars
+<h2 id="talks">Talks &amp; Seminars</h2>
 
 <div class="talk-list">
     <div class="talk-entry">
@@ -367,7 +360,7 @@ layout: default
     </div>
 </div>
 
-## Services
+<h2 id="services">Services</h2>
 
 <div class="record-list service-list">
     <div class="record-entry">
