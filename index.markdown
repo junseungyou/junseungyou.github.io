@@ -82,6 +82,15 @@ layout: default
     <div class="pub-body">
         <div class="pub-title">Hardware-assisted Isolation of Rust from Unsafe Languages on ARM</div>
     </div>
+    <div class="pub-authors">
+            Junseung You<sup>⭑</sup>, <strong>Martin Kayondo</strong><sup>⭑</sup>, Donghyun Kwon, and Yunheung Paek
+        </div>
+        <div class="pub-conference">
+            Computers & Security, 2026
+        </div>
+        <div class="pub-note">
+            ⭑ co-first authors
+        </div>
 </article>
 
 <article class="pub-entry">
