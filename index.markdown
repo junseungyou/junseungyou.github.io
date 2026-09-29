@@ -77,6 +77,15 @@ layout: default
 
 <article class="pub-entry">
     <div class="pub-side">
+        <div class="pub-venue">Computers & Security</div>
+    </div>
+    <div class="pub-body">
+        <div class="pub-title">Hardware-assisted Isolation of Rust from Unsafe Languages on ARM</div>
+    </div>
+</article>
+
+<article class="pub-entry">
+    <div class="pub-side">
         <div class="pub-venue">NDSS</div>
         
         <div class="pub-links" aria-label="Publication resources">
