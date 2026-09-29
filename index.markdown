@@ -47,6 +47,12 @@ layout: default
 ## News
 
 <div class="news-list">
+
+    <div class="news-entry">
+        <div class="news-date">Sep 2026</div>
+        <div>New paper on protecting Rust from unsafe languages has been accepted to <em>Computers and Security</em>
+    <\div>
+    
     <div class="news-entry">
         <div class="news-date">Jul 2026</div>
         <div>I was selected for postdoctoral research funding through Seoul National University's BK21 FOUR program for Future Leaders in Information Technology.</div>
@@ -68,25 +74,6 @@ layout: default
 <h2 class="publications-heading" id="publications">Publications <label for="publications-full">(full)</label></h2>
 
 <div class="publication-list">
-    <article class="pub-entry publication-optional">
-        <div class="pub-side">
-            <div class="pub-venue pub-status">Under submission</div>
-        </div>
-        
-        <div class="pub-body">
-            <div class="pub-title">CCAX: Extending Confidential Virtual Machine for Nested Enclaves on ARM</div>
-        </div>
-    </article>
-        
-    <article class="pub-entry publication-optional">
-        <div class="pub-side">
-            <div class="pub-venue pub-status">Under submission</div>
-        </div>
-        
-        <div class="pub-body">
-            <div class="pub-title">Hardware-assisted Isolation of Rust from Unsafe Languages on ARM</div>
-        </div>
-    </article>
 
 <article class="pub-entry">
     <div class="pub-side">
