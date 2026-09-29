@@ -51,7 +51,7 @@ layout: default
     <div class="news-entry">
         <div class="news-date">Sep 2026</div>
         <div>New paper on protecting Rust from unsafe languages has been accepted to <em>Computers and Security</em>.</div>
-    <\div>
+    </div>
     
     <div class="news-entry">
         <div class="news-date">Jul 2026</div>
