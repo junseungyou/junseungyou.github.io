@@ -85,7 +85,7 @@ layout: default
             Hardware-assisted Isolation of Rust from Unsafe Languages on ARM
         </div>
         <div class="pub-authors">
-            Junseung You<sup>⭑</sup>, <strong>Martin Kayondo</strong><sup>⭑</sup>, Donghyun Kwon, and Yunheung Paek
+            <strong>Junseung You</strong><sup>⭑</sup>, Martin Kayondo<sup>⭑</sup>, Donghyun Kwon, and Yunheung Paek
         </div>
         <div class="pub-conference">
             Computers & Security, 2026
