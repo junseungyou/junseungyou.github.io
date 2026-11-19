@@ -49,6 +49,11 @@ layout: default
 <div class="news-list">
 
     <div class="news-entry">
+        <div class="news-date">Nov 2026</div>
+        <div>New paper on enhancing HE with TEE has been accepted to <em>International Journal of Information Security</em>.</div>
+    </div>
+
+    <div class="news-entry">
         <div class="news-date">Sep 2026</div>
         <div>New paper on protecting Rust from unsafe languages has been accepted to <em>Computers and Security</em>.</div>
     </div>
