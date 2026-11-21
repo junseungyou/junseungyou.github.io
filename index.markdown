@@ -334,6 +334,20 @@ layout: default
 <h2 id="talks">Talks &amp; Seminars</h2>
 
 <div class="talk-list">
+
+    <div class="talk-entry">
+        <div class="talk-heading">
+            <div class="talk-title">Rethinking Trust and Resource Sharing in Confidential Computing</div>
+            <div class="talk-date">Nov 2026</div>
+        </div>
+        <div class="talk-meta">
+            <span>Sejong Cybersecurity Workshop</span>
+            <a class="talk-slides" href="/assets/sejong-cybersecurity-workshop.pdf" title="Slides" aria-label="Slides">
+                <i class="fa-regular" fa-file-powerpoint" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+    
     <div class="talk-entry">
         <div class="talk-heading">
             <div class="talk-title">A Systematic Look at Mutual Privacy in AI Model Usage</div>
