@@ -343,7 +343,7 @@ layout: default
         <div class="talk-meta">
             <span>Sejong Cybersecurity Workshop</span>
             <a class="talk-slides" href="/assets/sejong-cybersecurity-workshop.pdf" title="Slides" aria-label="Slides">
-                <i class="fa-regular" fa-file-powerpoint" aria-hidden="true"></i>
+                <i class="fa-regular fa-file-powerpoint" aria-hidden="true"></i>
             </a>
         </div>
     </div>
